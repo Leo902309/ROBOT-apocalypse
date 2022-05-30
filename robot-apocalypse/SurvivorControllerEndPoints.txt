@@ -1,0 +1,40 @@
+
+ 
+SurvivorCotroller -  http://localhost:8090/addSurvivors
+Type - Post
+ 
+ 1) addSurvivors 
+  
+ [
+  {
+    "name": "Mark",
+    "age": 27,
+    "gender": "Male",
+    "id": "Mark_27",
+    "lastLocation": "27.176670~78.008072",
+   
+  },
+  {
+    "name": "leo",
+    "age": 27,
+    "gender": "Male",
+    "id": "leo_27",
+    "lastLocation": "27.176670~78.008072",
+    "isInfacted": true
+  }
+]
+
+2) updateStatus - http://localhost:8090/updateStatus
+   Type  - PUT
+  
+       {
+           "primaryKey": 1,
+           "isInfacted": false
+       }
+
+3) updateLocation - http://localhost:8090/updateLocation
+   Type  - PUT
+       {
+          "primaryKey": 1,
+          "lastLocation": "28.176670~78.008072"
+      }

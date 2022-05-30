@@ -1,0 +1,33 @@
+RobotController
+
+ 1)addRobots - http://localhost:8090/addRobots
+
+  Type -POST
+  
+  [
+  {
+    "model": "0M3DZ",
+    "serialNumber": "1U74R28W8Q8X1T8",
+    "manufacturedDate": "2022-05-22T13:24:28.5331388+00:00",
+    "category": "Land"
+  },
+  {
+    "model": "1FQP9",
+    "serialNumber": "8JR6DJ9VRIC6ZAE",
+    "manufacturedDate": "2022-07-05T13:24:28.5331998+00:00",
+    "category": "Land"
+  }
+]
+
+2)addRobot - http://localhost:8090/addRobot
+  TYPE -POST
+  {
+    "model": "1FQP9",
+    "serialNumber": "8JR6DJ9VRIC6ZAE",
+    "manufacturedDate": "2022-07-05T13:24:28.5331998+00:00",
+    "category": "Land"
+  }
+  
+3)getRobotsCategoryWise - http://localhost:8090/getRobotsCategoryWise/Land 
+  TYPE - GET
+  
